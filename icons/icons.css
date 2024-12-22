@@ -1,0 +1,30 @@
+/*
+ * Icons: Simple Icons
+ * Source: https://simpleicons.org/
+ * License: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+ */
+
+.icon {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-color: var(--icon-color);
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    margin-right: 10px;
+}
+
+.icon-twitter {
+    -webkit-mask: url('twitter.svg') no-repeat center;
+    mask: url('twitter.svg') no-repeat center;
+}
+
+.icon-linkedin {
+    -webkit-mask: url('linkedin.svg') no-repeat center;
+    mask: url('linkedin.svg') no-repeat center;
+}
+
+footer a {
+    margin-bottom: 10px;
+    display: inline-block;
+}
