@@ -23,11 +23,50 @@ html, body {
     min-height: 100vh;
 }
 
+header, main, footer {
+    padding: 10px;
+    text-align: center;
+}
+
 main {
     flex: 1;
 }
 
-header, main, footer {
-    padding: 20px;
-    text-align: center;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .profile {
+    display: flex;
+    align-items: center;
+}
+
+header .profile-pic {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+header h3 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+header nav ul li.active a {
+    border-bottom: 2px solid var(--text-color);
 }

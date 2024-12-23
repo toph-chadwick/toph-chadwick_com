@@ -1,0 +1,11 @@
+main {
+    max-width: 400px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main p {
+    line-height: 1.6;
+}
